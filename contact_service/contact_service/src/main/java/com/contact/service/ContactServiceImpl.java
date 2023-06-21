@@ -3,6 +3,7 @@ package com.contact.service;
 import com.contact.entity.Contact;
 import org.springframework.stereotype.Service;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -11,11 +12,11 @@ public class ContactServiceImpl implements ContactService {
 
     //fake list of contacts
 
-    List<Contact> list = List.of(
-            new Contact(1L, "amit@gmail.com", "Amit", 1311L),
-            new Contact(2L, "anil@gmail.com", "Anil", 1311L),
-            new Contact(3L, "rohan@gmail.com", "Rohan", 1312L),
-            new Contact(4L, "sameer@gmail.com", "Sameer", 1314L)
+    List<Contact> list = Arrays.asList(
+            new Contact(1L, "neelesh@gmail.com", "Neelesh", 1311L),
+            new Contact(2L, "shailesh@gmail.com", "Shailesh", 1311L),
+            new Contact(3L, "mayank@gmail.com", "Mayank", 1312L),
+            new Contact(4L, "lokendraa@gmail.com", "Lokendra", 1314L)
     );
 
 
